@@ -44,11 +44,11 @@ Microsoft Store에서 원하는 우분투 버전을 설치한다.
 
 # 4. 정상 실행 결과
 
-![Untitled](WSL2%E1%84%8B%E1%85%A6%20Ubuntu%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%90%E1%85%A5%E1%84%86%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AF%20%E1%84%8F%E1%85%A5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20c11b663897814fbeab131914f2e54e67/Untitled.png)
+![Untitled](image/Untitled.png)
 
 이때 Hyper-V 옵션을 설정하지 않고 그냥 진행했을때 되었는데, Window 11 에서는 옵션 설정을 해주어야 하는 것 같다. 검색에 Windows 기능 켜기/끄기를 검색해서 설정을 보면 Hyper-V와 가상 머신 플랫폼이 있다. 나는 Hyper-V 말고 가상 머신 플랫폼만 켜져있었다.
 
-![Untitled](WSL2%E1%84%8B%E1%85%A6%20Ubuntu%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%90%E1%85%A5%E1%84%86%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AF%20%E1%84%8F%E1%85%A5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20c11b663897814fbeab131914f2e54e67/Untitled%201.png)
+![Untitled](image/Untitled%201.png)
 
 Hyper-V 와 가상 머신 플랫폼의 차이는 더 알아봐야 할 것 같다. 
 참고 : [https://superuser.com/a/1619173](https://superuser.com/a/1619173)
@@ -59,7 +59,7 @@ Hyper-V 와 가상 머신 플랫폼의 차이는 더 알아봐야 할 것 같다
 wsl -l -v
 ```
 
-![Untitled](WSL2%E1%84%8B%E1%85%A6%20Ubuntu%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%90%E1%85%A5%E1%84%86%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AF%20%E1%84%8F%E1%85%A5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20c11b663897814fbeab131914f2e54e67/Untitled%202.png)
+![Untitled](image/Untitled%202.png)
 
 # 5. Windows Terminal로 WSL2 사용하기
 
@@ -67,7 +67,7 @@ Windows Terminal 은 WSL2도 기본적으로 지원한다. Microsoft Store에서
 
 참고 : [https://www.lainyzine.com/ko/article/how-to-install-windows-terminal-powershell-wsl2/](https://www.lainyzine.com/ko/article/how-to-install-windows-terminal-powershell-wsl2/)
 
-![Untitled](WSL2%E1%84%8B%E1%85%A6%20Ubuntu%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%90%E1%85%A5%E1%84%86%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AF%20%E1%84%8F%E1%85%A5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20c11b663897814fbeab131914f2e54e67/Untitled%203.png)
+![Untitled](image/Untitled%203.png)
 
 아무 설정 없이 Ubuntu를 실행할 수 있다.
 
@@ -87,7 +87,7 @@ sudo apt install zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-![Untitled](WSL2%E1%84%8B%E1%85%A6%20Ubuntu%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%90%E1%85%A5%E1%84%86%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AF%20%E1%84%8F%E1%85%A5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20c11b663897814fbeab131914f2e54e67/Untitled%204.png)
+![Untitled](image/Untitled%204.png)
 
 zsh의 테마를 익숙한 agnoster로 바꿔주자.
 
@@ -107,7 +107,7 @@ https://github.com/naver/d2codingfont/releases/tag/VER1.3.2
 
 Windows Terminal 에서 폰트를 바꾸어주자.
 
-![Untitled](WSL2%E1%84%8B%E1%85%A6%20Ubuntu%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%90%E1%85%A5%E1%84%86%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AF%20%E1%84%8F%E1%85%A5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20c11b663897814fbeab131914f2e54e67/Untitled%205.png)
+![Untitled](image/Untitled%205.png)
 
 # 7. zsh plugins 설치하기
 
@@ -121,7 +121,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 위 명령어로 설치하고 ~/.zshrc 파일 안에 있는 plugins에 `zsh-autosuggestions` 를 추가해준다.
 
-![Untitled](WSL2%E1%84%8B%E1%85%A6%20Ubuntu%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%90%E1%85%A5%E1%84%86%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AF%20%E1%84%8F%E1%85%A5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%BC%20c11b663897814fbeab131914f2e54e67/Untitled%206.png)
+![Untitled](image/Untitled%206.png)
 
 ### syntax highlighting
 
