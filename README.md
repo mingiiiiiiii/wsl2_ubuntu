@@ -105,7 +105,7 @@ https://github.com/naver/d2codingfont/releases/tag/VER1.3.2
 
 네이버에서 만든 D2Coding 폰트를 다운받는다. 터미널이나 코드를 짤때 한글 입력이 자연스럽고 깨지지 않는다. ligature은 “합자”를 의미하는데 >= 를 ≥ 로 사용하는 걸 말한다.
 
-Windows Terminal 에서 폰트를 바꾸어주자.
+Windows Terminal 에서 폰트를 바꾸어주자. (맥북은 이쁜 폰트들이 많다 예를들어 melno!)
 
 ![Untitled](image/Untitled%205.png)
 
@@ -157,7 +157,7 @@ code .
 
 ### VS Code 에서 탐색기에 불필요한 파일 안뜨게 하기
 
-vscode 설정에서 **Files: Exclude** 를 검색하고 아래 내용을 추가해준다.
+vscode 설정에서 **Files: Exclude** 를 검색하고 아래 내용을 추가해준다. --> 현재 작동안함
 
 앞에 .(점) 이 붙은 파일을 없애고 싶은데 아직 방법을 찾지 못했다ㅠㅠ
 
@@ -193,7 +193,7 @@ vscode의 문제가 아니라 wsl 폴더를 윈도우 파일탐색기로 보았�
 
 [https://javaworld.co.kr/135](https://javaworld.co.kr/135) —> 참고
 
-\\***wsl***$ 로 접근할 수 있다.
+\\\***wsl***$ 로 접근할 수 있다.
 
 이 경로를 NAS처럼 즐겨찾기에 저장해 놓으면 쉽게 이용할 수 있다!
 
