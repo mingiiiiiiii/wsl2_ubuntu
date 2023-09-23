@@ -81,6 +81,11 @@ sudo apt upgrade
 sudo apt install zsh
 ```
 
+그리고 zsh를 터미널의 기본 shell로 설정해주자
+```bash
+chsh -s usr/bin/zsh
+```
+
 이제 zsh를 더 편하게 꾸미는 oh-my-zsh를 설치한다.
 
 ```bash
