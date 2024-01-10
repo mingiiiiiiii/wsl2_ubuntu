@@ -162,7 +162,7 @@ code .
 
 ### VS Code 에서 탐색기에 불필요한 파일 안뜨게 하기
 
-vscode 설정에서 **Files: Exclude** 를 검색하고 아래 내용을 추가해준다. --> 현재 작동안함
+~~vscode 설정에서 **Files: Exclude** 를 검색하고 아래 내용을 추가해준다.~~ --> 현재 작동안함
 
 앞에 .(점) 이 붙은 파일을 없애고 싶은데 아직 방법을 찾지 못했다ㅠㅠ
 
@@ -208,4 +208,4 @@ vscode의 문제가 아니라 wsl 폴더를 윈도우 파일탐색기로 보았�
 
 추가로 설치할 라이브러리나 프로그램들은 리눅스와 같은 형태로 생각하면 된다.
 
-sudo get-apt update, sudo apt install … 등등 리눅스와 거의 같다고 생각하면 된다!
+sudo apt-get update, sudo apt install … 등등 리눅스와 거의 같다고 생각하면 된다!
