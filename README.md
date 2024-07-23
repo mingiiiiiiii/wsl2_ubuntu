@@ -36,6 +36,14 @@ ARM64 : [https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_arm64.
 wsl --set-default-version 2
 ```
 
+예외 케이스로 위 명령어가 동작하지 않을수도 있다. 만약 그렇다면 아래와 같은 명령어를 입력하자.
+
+```powershell
+wsl --set-version "자신의 우분투 버전" 2
+```
+
+![image](https://github.com/user-attachments/assets/5918c9e6-19c3-48ff-9305-797e012450da)
+
 # 3. Microsoft Store에서 원하는 Ubuntu 앱 설치
 
 Microsoft Store에서 원하는 우분투 버전을 설치한다. 
